@@ -1,6 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --color-black: #111111;
+  --color-beige: #efecd2;
+  --color-orange: #fda814;
+  --color-olive: #b0c94d;
+  --color-lightblue: #b9d7de;
+}
+
+body {
+  background-color: var(--color-beige);
+  color: var(--color-black);
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.75rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.25rem;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--color-lightblue);
+}
+
+.navbar-brand img {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-nav .nav-link {
+  color: var(--color-black);
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--color-orange);
+}
+
+.dropdown-menu {
+  background-color: var(--color-lightblue);
+}
+
+.dropdown-item {
+  color: var(--color-black);
+}
+
+.dropdown-item:hover {
+  background-color: var(--color-olive);
+  color: var(--color-beige);
+}
+
+/* ----------------------  Main Content */
+main {
+  padding: 80px 0;
+}
+
+h1 {
+  color: var(--color-orange);
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Carousel */
+.carousel-item {
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 991.98px) {
+  .carousel {
+    height: 400px;
+  }
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  color: var(--color-beige);
+  bottom: 0;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: var(--color-olive);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/*------------------------------ MAIN BODY - BREAKFAST  */
+
+.breakfast-image-1 {
+  background: url(/assets/img/brakfast-img1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+}
+
+.breakfast-image-2 {
+  background: url(/assets/img/brakfast-img2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+}
+
+.breakfast-image-3 {
+  background: url(/assets/img/brakfast-img3.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+}
+
+/*------------------------------ MAIN BODY - LUNCH  */
+
+
+/*------------------------------ MAIN BODY - DINNER  */
+
+
+/*------------------------------ MAIN BODY - ABOUT US  */
+
+
+/*------------------------------ MAIN BODY - CONTACT US  */
+
+
+/* Footer */
+footer {
+  background-color: var(--color-lightblue);
+  color: var(--color-black);
+}
+
 .icon-link {
+  color: var(--color-black);
   text-decoration: none;
 }
-body {
-  padding-top: 56px; /* Adjust this value based on the height of your navbar */
+
+.icon-link:hover {
+  color: var(--color-orange);
+}
+
+h5 {
+  color: var(--color-olive);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h6 {
+  color: var(--color-orange);
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.form-control {
+  background-color: var(--color-beige);
+  border-color: var(--color-olive);
+}
+
+.btn-primary {
+  background-color: var(--color-orange);
+  border-color: var(--color-orange);
+  color: var(--color-black);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-olive);
+  border-color: var(--color-olive);
+  color: var(--color-beige);
+}
+
+.list-unstyled li a {
+  color: var(--color-black);
+}
+
+.list-unstyled li a:hover {
+  color: var(--color-orange);
+}
+
+hr {
+  border-color: var(--color-black);
 }
