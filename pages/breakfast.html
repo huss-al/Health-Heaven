@@ -62,9 +62,9 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="../index.html">
           <img
-            src="./assets/img/Helth-Heven-Logo.webp"
+            src="../assets/img/Helth-Heven-Logo.webp"
             alt="Health Heaven"
             width="40"
             height="40"
@@ -101,9 +101,13 @@
                 Recipes
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Breakfast</a></li>
-                <li><a class="dropdown-item" href="#">Lunch</a></li>
-                <li><a class="dropdown-item" href="#">Dinner</a></li>
+                <li>
+                  <a class="dropdown-item" href="./breakfast.html">Breakfast</a>
+                </li>
+                <li><a class="dropdown-item" href="./lunch.html">Lunch</a></li>
+                <li>
+                  <a class="dropdown-item" href="./dinner.html">Dinner</a>
+                </li>
               </ul>
             </li>
           </ul>
@@ -111,7 +115,92 @@
       </div>
     </nav>
     <main class="flex-grow-1">
-      <!-- Add your main content here -->
+      <div class="container mt-5">
+        <h1>Breakfast</h1>
+
+        <!-- Breakfast Carousel -->
+        <div
+          id="breakfastCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#breakfastCarousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#breakfastCarousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#breakfastCarousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="../assets/img/breakfast1.jpg"
+                class="d-block w-100"
+                alt="Breakfast Recipe 1"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Breakfast Recipe 1</h5>
+                <p>Description of Breakfast Recipe 1</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../assets/img/breakfast2.jpg"
+                class="d-block w-100"
+                alt="Breakfast Recipe 2"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Breakfast Recipe 2</h5>
+                <p>Description of Breakfast Recipe 2</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../assets/img/breakfast3.jpg"
+                class="d-block w-100"
+                alt="Breakfast Recipe 3"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Breakfast Recipe 3</h5>
+                <p>Description of Breakfast Recipe 3</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#breakfastCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#breakfastCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
     </main>
     <!-- footer -->
     <footer class="bg-light py-4 mt-auto">
@@ -141,10 +230,12 @@
           <div class="col-md-4 mb-3 mb-md-0 text-center text-md-start">
             <h5>Quick Links</h5>
             <ul class="list-unstyled">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Recipes</a></li>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="./about_us.html">About Us</a></li>
+              <li><a href="./contact_us.html">Contact</a></li>
+              <li><a href="./breakfast.html">Breakfast Recipes</a></li>
+              <li><a href="./lunch.html">Lunch Recipes</a></li>
+              <li><a href="./dinner.html">Dinner Recipes</a></li>
             </ul>
           </div>
           <div class="col-md-4 text-center text-md-start">
