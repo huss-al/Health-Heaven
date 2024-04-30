@@ -140,6 +140,24 @@ h1 {
   height: 50vh;
 }
 
+.breakfast-image-2 {
+  background: url(/assets/img/brakfast-img2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+}
+
+.breakfast-image-3 {
+  background: url(/assets/img/brakfast-img3.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+}
+
 /*------------------------------ MAIN BODY - LUNCH  */
 
 
