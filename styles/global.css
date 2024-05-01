@@ -115,10 +115,15 @@ p {
   font-weight: 700;
 }
 
-@media (min-width: 768px) {
+
+
+@media (max-width: 1600px) {
   .food-description-section {
     font-weight: 700;
-    margin-top: 20%;
+    margin-top: 10%;
+  }
+  .welcome-message {
+    padding-top: 150px;
   }
 }
 
