@@ -118,56 +118,95 @@
       </div>
     </nav>
     <main class="flex-grow-1">
-      <!-- Add your main content here -->
       <h1 class="text-center">Contact us</h1>
 
-      <div class="container text-center contact-us-container">
-        <form>
-          <div class="row mb-3">
-            <div class="col-md-12">
-              <label for="nameinput" class="form-label">Name</label>
-              <input type="text" class="form-control" id="nameinput" placeholder="Enter your name">
-            </div>
+      <div class="container contact-us-container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <form>
+              <div class="mb-3">
+                <label for="nameinput" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nameinput"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="emailinput" class="form-label">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="emailinput"
+                  placeholder="name@example.com"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="subjectinput" class="form-label">Subject</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subjectinput"
+                  placeholder="Enter your subject"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="messageinput" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="messageinput"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
           </div>
-          <div class="row mb-3">
-            <div class="col-md-12">
-              <label for="emailinput" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="emailinput" placeholder="name@example.com">
-            </div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-md-12">
-              <label for="subjectinput" class="form-label">Subject</label>
-              <input type="text" class="form-control" id="subjectinput" placeholder="Enter your subject">
-            </div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-md-12">
-              <label for="messageinput" class="form-label">Message</label>
-              <textarea class="form-control" id="messageinput" rows="3"></textarea>
-            </div>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+        </div>
       </div>
-      
-
-
     </main>
     <!-- footer -->
     <footer class="bg-light py-4 mt-auto">
       <div class="container">
         <div class="text-center mb-4">
-          <a href="https://www.facebook.com/" target="_blank" class="icon-link" aria-label="Facebook">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="icon-link"
+            aria-label="Facebook"
+          >
             <i class="fab fa-facebook fa-2x p-2"></i>
           </a>
-          <a href="https://www.instagram.com/" target="_blank" class="icon-link" aria-label="Instagram">
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="icon-link"
+            aria-label="Instagram"
+          >
             <i class="fab fa-instagram fa-2x p-2"></i>
           </a>
-          <a href="https://www.twitter.com/" target="_blank" class="icon-link" aria-label="Twitter">
+          <a
+            href="https://www.twitter.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="icon-link"
+            aria-label="Twitter"
+          >
             <i class="fab fa-twitter fa-2x p-2"></i>
           </a>
-          <a href="https://www.youtube.com/" target="_blank" class="icon-link" aria-label="YouTube">
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="icon-link"
+            aria-label="YouTube"
+          >
             <i class="fab fa-youtube fa-2x p-2"></i>
           </a>
         </div>
