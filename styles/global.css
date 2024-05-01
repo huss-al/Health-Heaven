@@ -166,7 +166,7 @@ html {
 /*------------------------------ MAIN BODY - BREAKFAST  */
 
 .breakfast-image-1 {
-  background: url(/assets/img/brakfast-img1.webp);
+  background: url(../assets/img/brakfast-img1.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -175,7 +175,7 @@ html {
 }
 
 .breakfast-image-2 {
-  background: url(/assets/img/brakfast-img2.webp);
+  background: url(../assets/img/brakfast-img2.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -184,7 +184,7 @@ html {
 }
 
 .breakfast-image-3 {
-  background: url(/assets/img/brakfast-img3.webp);
+  background: url(../assets/img/brakfast-img3.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -195,7 +195,7 @@ html {
 /*------------------------------ MAIN BODY - LUNCH  */
 
 .lunch-image-1 {
-  background: url(/assets/img/lunch-image-1.webp);
+  background: url(../assets/img/lunch-image-1.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -204,7 +204,7 @@ html {
 }
 
 .lunch-image-2 {
-  background: url(/assets/img/lunch-image-2.webp);
+  background: url(../assets/img/lunch-image-2.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -213,7 +213,7 @@ html {
 }
 
 .lunch-image-3 {
-  background: url(/assets/img/lunch-image-3.webp);
+  background: url(../assets/img/lunch-image-3.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -224,7 +224,7 @@ html {
 /*------------------------------ MAIN BODY - DINNER  */
 
 .dinner-image-1 {
-  background: url(/assets/img/dinner-image-1.webp);
+  background: url(../assets/img/dinner-image-1.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -233,7 +233,7 @@ html {
 }
 
 .dinner-image-2 {
-  background: url(/assets/img/dinner-image-2.webp);
+  background: url(../assets/img/dinner-image-2.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -242,7 +242,7 @@ html {
 }
 
 .dinner-image-3 {
-  background: url(/assets/img/dinner-image-3.webp);
+  background: url(../assets/img/dinner-image-3.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
