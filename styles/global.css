@@ -111,6 +111,17 @@ list-style: none;
   margin-top: 15px;
 }
 
+p {
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .food-description-section {
+    font-weight: 700;
+    margin-top: 20%;
+  }
+}
+
 
 
 html {
@@ -401,4 +412,5 @@ hr {
 hr {
   border-color: var(--color-black);
 }
+
 
