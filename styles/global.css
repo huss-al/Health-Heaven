@@ -542,3 +542,14 @@ h5 {
   line-height: 1.6;
   margin-bottom: 0;
 }
+
+.time-section {
+  background-color: var(--color-lightblue);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.time-section h5 {
+  color: orange;
+}
