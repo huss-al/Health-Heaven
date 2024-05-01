@@ -165,6 +165,10 @@ h1 {
   text-decoration: none;
 }
 
+.ingredients-section ul {
+list-style: none;
+}
+
 /*------------------------------ MAIN BODY - LUNCH  */
 
 .lunch-image-1 {
