@@ -121,38 +121,36 @@
       <!-- Add your main content here -->
       <h1 class="text-center">Contact us</h1>
 
-      <section class="text-center">
-        <div class="container">
-        <form class="row g-3">
-          <div class="row">
-          <div class=" col-md-6">
-            <label for="inputname" class="form-label">Name</label>
-            <input type="text" class="form-control" id="inputname">
+      <div class="container text-center contact-us-container">
+        <form>
+          <div class="row mb-3">
+            <div class="col-md-12">
+              <label for="nameinput" class="form-label">Name</label>
+              <input type="text" class="form-control" id="nameinput" placeholder="Enter your name">
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4">
+          <div class="row mb-3">
+            <div class="col-md-12">
+              <label for="emailinput" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="emailinput" placeholder="name@example.com">
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <label for="inputsubject" class="form-label">Subject</label>
-            <input type="text" class="form-control" id="inputsubject">
+          <div class="row mb-3">
+            <div class="col-md-12">
+              <label for="subjectinput" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="subjectinput" placeholder="Enter your subject">
+            </div>
           </div>
-        </div>
-          <div class="col-md-12">
-            <label for="inputmessage" class="form-label">Message</label>
-            <br>
-            <textarea name="message" id="inputMessage" cols="50" rows="10"></textarea>
+          <div class="row mb-3">
+            <div class="col-md-12">
+              <label for="messageinput" class="form-label">Message</label>
+              <textarea class="form-control" id="messageinput" rows="3"></textarea>
+            </div>
           </div>
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary">Sign in</button>
-          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
         </form>
       </div>
-      </section>
+      
 
 
     </main>
