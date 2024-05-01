@@ -123,33 +123,28 @@
     </nav>
     <main class="flex-grow-1">
       <!-- Add your main content here -->
-      <section class="hero">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-6">
-            
-          <div class="row">
-            <div class="col-md-6">
-              <h1>Welcome to Health Heaven</h1>
-              <p class="lead">
-                Discover a world of healthy and delicious recipes
-              </p>
-              <a href="#" class="btn btn-primary btn-lg">about us</a>
-            </div>
-            <div class="col-md-6">
-              <img
-                src="./assets/img/Health-Heaven-Hero.webp"
-                alt="Health Heaven"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+      <div class="row">
+      <div class="col-md-6 text-center welcome-message">
+      <h1>Welcome to Health Heaven</h1>
+      <p class="lead">
+        Discover a world full of healthy and delicious recipes
+      </p>
+      <div class="col-md-12 text-center">
+        <a href="./pages/about_us.html" class="btn btn-primary btn-lg">About us</a>
+      </div>
+      </div>
+
+      <div class="col-md-6 text-center">
+        <img
+          src="./assets/img/Health-Heaven-Hero.webp"
+          alt="Health Heaven"
+          class="img-fluid"
+        />
+      </div>
+    </div>
 
       <section class="carousel-section">
         <div class="container">
-          <h2 class="text-center mb-4">Featured Recipes</h2>
           <!-- Carousel -->
           <div id="mealCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -218,7 +213,7 @@
                   alt="Healthy Porridge Bowl"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Healthy Porridge Bowl</h5>
+                  <h5><a href="pages/breakfast.html#breakfast-1" class="carousel-anchor-tag">Healthy Porridge Bowl</a></h5>
                   <p>
                     Start your day right with this filling bowl of oats,
                     berries, banana and seeds. It's healthy and packed with
@@ -233,7 +228,8 @@
                   alt="Mushroom hash with poached eggs"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Mushroom hash with poached eggs</h5>
+                  <h5><a href="pages/breakfast.html#breakfast-2" class="carousel-anchor-tag">Mushroom hash with poached eggs
+                  </a></h5>                  
                   <p>
                     Get three of your 5-a-day before midday with this nutritious
                     recipe. Mushrooms are a good source of zinc, a key nutrient
@@ -248,7 +244,7 @@
                   alt="Breakfast Burrito"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Breakfast Burrito</h5>
+                  <h5><a href="pages/breakfast.html#breakfast-3" class="carousel-anchor-tag">Breakfast Burrito</a></h5>
                   <p>
                     Fill a nutritious wholemeal wrap with lots of healthy
                     breakfast ingredients to make this veggie burrito. We've
@@ -263,7 +259,7 @@
                   alt="Versatile Veg Soup"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Versatile Veg Soup</h5>
+                  <h5><a href="pages/lunch.html#lunch-1" class="carousel-anchor-tag">Versatile Veg Soup</a></h5>
                   <p>
                     Try a basic soup recipe that can be adapted for whatever veg
                     you've got in the fridge. Serve with creme fraiche and fresh
@@ -278,7 +274,8 @@
                   alt="Roasted Cauliflower Steaks"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Roasted Cauliflower Steaks</h5>
+                  <h5><a href="pages/lunch.html#lunch-2" class="carousel-anchor-tag">Roasted Cauliflower Steaks
+                  </a></h5>
                   <p>
                     Unlock the flavours of cauliflower with a red pepper, olive
                     and caper salsa, topped with almonds. Healthy and vegan, it
@@ -293,7 +290,8 @@
                   alt="Spicy Chicken & Avocado Wraps"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Spicy Chicken & Avocado Wraps</h5>
+                  <h5><a href="pages/lunch.html#lunch-3" class="carousel-anchor-tag">Spicy Chicken & Avocado Wraps
+                  </a></h5>
                   <p>
                     Pan-fry lean chicken breast with lime, chilli and garlic,
                     then pile onto seeded tortilla wraps. Cool before assembling
@@ -308,7 +306,8 @@
                   alt="Healthy Tikka Masala"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Healthy Tikka Masala</h5>
+                  <h5><a href="pages/dinner.html#dinner-1" class="carousel-anchor-tag">Healthy Tikka Masala
+                  </a></h5>
                   <p>
                     Enjoy the spicy, rich flavours of tikka masala with this
                     family-friendly lighter version that's both healthy and
@@ -323,7 +322,8 @@
                   alt="Healthy Bolognese"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Healthy Bolognese</h5>
+                  <h5><a href="pages/dinner.html#dinner-2" class="carousel-anchor-tag">Healthy Bolognese
+                  </a></h5>
                   <p>
                     This low-fat, low-calorie bolognese combines lean pork mince
                     with fennel and cherry tomatoes to give a burst of fresh
@@ -338,7 +338,8 @@
                   alt="Healthy Roast Dinner"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Healthy Roast Dinner</h5>
+                  <h5><a href="pages/dinner.html#dinner-3" class="carousel-anchor-tag">Healthy Roast Dinner
+                  </a></h5>
                   <p>
                     Cook a healthy, low-fat version of roast beef for two, made
                     with lean, juicy steak and roasted veg, plus gravy on the
@@ -375,6 +376,21 @@
         </div>
       </section>
 
+      <section class="hero">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+            
+          <div class="row">
+            <div class="col-md-12 text-center">
+
+              <a href="./pages/about_us.html" class="btn btn-primary btn-lg">About us</a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       <section class="recipe-section">
         <div class="container">
           <div class="row">
@@ -391,7 +407,7 @@
                   banana and seeds. It's healthy and packed with nutrients to
                   fuel body and mind.
                 </p>
-                <a href="./pages/breakfast.html" class="btn btn-primary"
+                <a href="pages/breakfast.html#breakfast-1" class="btn btn-primary"
                   >View Recipe</a
                 >
               </div>
@@ -409,7 +425,7 @@
                   you've got in the fridge. Serve with creme fraiche and fresh
                   herbs.
                 </p>
-                <a href="./pages/lunch.html" class="btn btn-primary"
+                <a href="pages/lunch.html#lunch-1" class="btn btn-primary"
                   >View Recipe</a
                 >
               </div>
@@ -427,7 +443,7 @@
                   family-friendly lighter version that's both healthy and
                   gluten-free. It's a guaranteed crowd-pleaser.
                 </p>
-                <a href="./pages/dinner.html" class="btn btn-primary"
+                <a href="pages/dinner.html#dinner-1" class="btn btn-primary"
                   >View Recipe</a
                 >
               </div>
@@ -441,16 +457,16 @@
     <footer class="bg-light py-4 mt-auto">
       <div class="container">
         <div class="text-center mb-4">
-          <a href="#" class="icon-link" aria-label="Facebook">
+          <a href="https://www.facebook.com/" target="_blank" class="icon-link" aria-label="Facebook">
             <i class="fab fa-facebook fa-2x p-2"></i>
           </a>
-          <a href="#" class="icon-link" aria-label="Instagram">
+          <a href="https://www.instagram.com/" target="_blank" class="icon-link" aria-label="Instagram">
             <i class="fab fa-instagram fa-2x p-2"></i>
           </a>
-          <a href="#" class="icon-link" aria-label="Twitter">
+          <a href="https://www.twitter.com/" target="_blank" class="icon-link" aria-label="Twitter">
             <i class="fab fa-twitter fa-2x p-2"></i>
           </a>
-          <a href="#" class="icon-link" aria-label="YouTube">
+          <a href="https://www.youtube.com/" target="_blank" class="icon-link" aria-label="YouTube">
             <i class="fab fa-youtube fa-2x p-2"></i>
           </a>
         </div>
