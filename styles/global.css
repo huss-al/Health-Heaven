@@ -542,3 +542,9 @@ h5 {
   line-height: 1.6;
   margin-bottom: 0;
 }
+.recipe-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
