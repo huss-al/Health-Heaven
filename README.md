@@ -4,8 +4,9 @@
 Health Heaven is a site that hopes to promote healthy eating and to encourage people to make healthier choices when it comes to food. The site will be targeted towards those seeking nutritious yet delicious meals, Health Heaven offers a diverse range of recipes to support a healthy lifestyle. Whether you're a health enthusiast, busy professional, or a family looking to prioritise wellness, Health Heaven provides the guidance and inspiration needed to create satisfying dishes that nourish the body.
 
 
-![Responsive Mockup]()
-<img>
+<p align="center">
+<img src="assets/img/Health Heave Mockup.png" width="600" height="100%">
+</p>
 
 
 
