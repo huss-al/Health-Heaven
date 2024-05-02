@@ -166,88 +166,106 @@ html {
 /*------------------------------ MAIN BODY - BREAKFAST  */
 
 .breakfast-image-1 {
-  background: url(/assets/img/brakfast-img1.webp);
+  background: url(../assets/img/brakfast-img1.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 50vh;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .breakfast-image-2 {
-  background: url(/assets/img/brakfast-img2.webp);
+  background: url(../assets/img/brakfast-img2.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 50vh;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .breakfast-image-3 {
-  background: url(/assets/img/brakfast-img3.webp);
+  background: url(../assets/img/brakfast-img3.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 50vh;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /*------------------------------ MAIN BODY - LUNCH  */
 
 .lunch-image-1 {
-  background: url(/assets/img/lunch-image-1.webp);
+  background: url(../assets/img/lunch-image-1.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 50vh;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .lunch-image-2 {
-  background: url(/assets/img/lunch-image-2.webp);
+  background: url(../assets/img/lunch-image-2.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 50vh;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .lunch-image-3 {
-  background: url(/assets/img/lunch-image-3.webp);
+  background: url(../assets/img/lunch-image-3.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 50vh;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /*------------------------------ MAIN BODY - DINNER  */
 
 .dinner-image-1 {
-  background: url(/assets/img/dinner-image-1.webp);
+  background: url(../assets/img/dinner-image-1.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 50vh;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .dinner-image-2 {
-  background: url(/assets/img/dinner-image-2.webp);
+  background: url(../assets/img/dinner-image-2.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 50vh;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .dinner-image-3 {
-  background: url(/assets/img/dinner-image-3.webp);
+  background: url(../assets/img/dinner-image-3.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 50vh;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /*------------------------------ MAIN BODY - ABOUT US  */
@@ -279,7 +297,7 @@ footer {
   color: var(--color-orange);
 }
 
-h5 {
+h5, h2 {
   color: var(--color-olive);
   font-weight: bold;
   margin-bottom: 20px;
@@ -542,9 +560,23 @@ h5 {
   line-height: 1.6;
   margin-bottom: 0;
 }
+
 .recipe-item img {
   width: 100%;
   height: auto;
   object-fit: cover;
   aspect-ratio: 1 / 1;
+}
+
+
+.time-section {
+  background-color: var(--color-lightblue);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 25px;  
+}
+
+.time-section h5 {
+  color: orange;
 }
