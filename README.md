@@ -30,6 +30,7 @@ In this section, you should go over the different parts of your project, and des
 <img src="assets/img/NavBar.png" width="600" height="100%">
 </p>
 
+
 - __The landing page image__
 
 
