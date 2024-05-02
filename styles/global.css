@@ -172,6 +172,7 @@ html {
   background-size: cover;
   width: 100%;
   height: 50vh;
+  border-radius: 10px;
 }
 
 .breakfast-image-2 {
@@ -181,6 +182,7 @@ html {
   background-size: cover;
   width: 100%;
   height: 50vh;
+  border-radius: 10px;
 }
 
 .breakfast-image-3 {
@@ -190,6 +192,7 @@ html {
   background-size: cover;
   width: 100%;
   height: 50vh;
+  border-radius: 10px;
 }
 
 /*------------------------------ MAIN BODY - LUNCH  */
