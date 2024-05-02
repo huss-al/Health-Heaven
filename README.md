@@ -26,8 +26,9 @@ In this section, you should go over the different parts of your project, and des
  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the â€˜backâ€™ button. This feature offers a convenient access to our curated collection of breakfast, lunch, and dinner recipes, enhancing the user's culinary experience.
 
 
-![Nav Bar]()
-
+<p align="center">
+<img src="assets/img/NavBar.png" width="600" height="100%">
+</p>
 
 - __The landing page image__
 
@@ -35,7 +36,9 @@ In this section, you should go over the different parts of your project, and des
  - The landing includes a photograph slide text overlay  providing users with an engaging  and informative introduction to Health Heaven.
 
 
-![Landing Page]()
+<p align="center">
+<img src="assets/img/Home:landing page.png" width="600" height="100%">
+</p>
 
 
 - __Recipes section__
@@ -45,19 +48,23 @@ In this section, you should go over the different parts of your project, and des
  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
 
 
-![Recipe section]()
+<p align="center">
+<img src="assets/img/recipe page.png" width="600" height="100%">
+</p>
 
 
 - __Breakfast section__
 
 
- - The breakfast section will allow the user to see the benefits of eating a healthy heavens food options for breakfast and benefits of eating healthy overall.
+ - The breakfast section will allow the user to see the benefits of eating a health heavens food options for breakfast and benefits of eating healthy overall.
 
 
  - Users can explore a wide variety of recipes tailored to their tastes and dietary preferences.
 
 
-![Breakfast section]()
+<p align="center">
+<img src="assets/img/Breakfast image.png" width="600" height="100%">
+</p>
 
 
 - __Lunch section__
@@ -66,8 +73,9 @@ In this section, you should go over the different parts of your project, and des
  - The lunch recipe page provides users with a diverse selection of satisfying and nutritious lunch options.Each recipe includes a comprehensive nutritional information, empowering users to make informed choices about their meals.
 
 
-![Lunch section]()
-
+<p align="center">
+<img src="assets/img/lunch image.png" width="600" height="100%">
+</p>
 
 - __Dinner section__
 
@@ -75,8 +83,9 @@ In this section, you should go over the different parts of your project, and des
  - The dinner recipe section offers users a diverse selection of delicious and nutritious evening meal options, catering to various tastes and dietary needs. Each recipe provides detailed nutritional information, empowering users to make informed choices. With simple and time-saving recipes, users can easily prepare satisfying dinners for themselves or their families, whether on busy weeknights or relaxed weekends. .
 
 
-![Dinner section]()
-
+<p align="center">
+<img src="assets/img/dinner image.png" width="600" height="100%">
+</p>
 
 - __About us__
 
@@ -84,8 +93,9 @@ In this section, you should go over the different parts of your project, and des
  - The about us section will provide users with insights into our mission, values and team, with the intention to foster trust and connection. By sharing our story, users understand our commitment to promoting healthy eating and will allow them to confidently engage with our platform.
 
 
-![About us]()
-
+<p align="center">
+<img src="assets/img/About us .png" width="600" height="100%">
+</p>
 
 - __Contact us__
 
@@ -93,11 +103,9 @@ In this section, you should go over the different parts of your project, and des
  - This section of the Navigation bar will enable users a contact option for inquiries and collaboration opportunities.
 
 
-![Contact us]()
-
-
-
-
+<p align="center">
+<img src="assets/img/Contact us.png" width="600" height="100%">
+</p>
 
 
 - __Footer__
@@ -110,7 +118,9 @@ In this section, you should go over the different parts of your project, and des
  - The footer is valuable to the user as it encourages them to keep connected via social media
 
 
-![footer]()
+<p align="center">
+<img src="assets/img/Footer.png" width="600" height="100%">
+</p>
 
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
