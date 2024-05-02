@@ -138,17 +138,73 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing
 
+<p align="center">
+<img src="assets/img/image 1.png" width="600" height="100%">
+</p>
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your projectâ€™s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+<p align="center">
+<img src="assets/img/image 2.png" width="600" height="100%">
+</p>
 
+<p align="center">
+<img src="assets/img/image 3.png" width="600" height="100%">
+</p>
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+<p align="center">
+<img src="assets/img/image 4.png" width="600" height="100%">
+</p>
 
+<p align="center">
+<img src="assets/img/image 5.png" width="600" height="100%">
+</p>
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+<p align="center">
+<img src="assets/img/image 6.png" width="600" height="100%">
+</p>
 
+<p align="center">
+<img src="assets/img/image 7.png" width="600" height="100%">
+</p>
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+<p align="center">
+<img src="assets/img/image 8.png" width="600" height="100%">
+</p>
+
+<p align="center">
+<img src="assets/img/image 9.png" width="600" height="100%">
+</p>
+
+<p align="center">
+<img src="assets/img/image 10.png" width="600" height="100%">
+</p>
+
+<p align="center">
+<img src="assets/img/image 11.png" width="600" height="100%">
+</p>
+
+<p align="center">
+<img src="assets/img/image 12.png" width="600" height="100%">
+</p>
+
+<p align="center">
+<img src="assets/img/image 13.png" width="600" height="100%">
+</p>
+
+<p align="center">
+<img src="assets/img/image 14.png" width="600" height="100%">
+</p>
+
+<p align="center">
+<img src="assets/img/screencapture-webpagetest-org-result-240502-AiDcCB-769-3-breakdown-2024-05-02-10_27_27.png" width="600" height="100%">
+</p>
+
+<p align="center">
+<img src="assets/img/screencapture-webpagetest-org-result-240502-AiDcCB-769-3-performance-optimization-2024-05-02-10_26_37.png" width="600" height="100%">
+</p>
+
+<p align="center">
+<img src="assets/img/screencapture-webpagetest-org-result-240502-AiDcCB-769-2024-05-02-10_25_54.png" width="600" height="100%">
+</p>
 
 
 
